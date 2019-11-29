@@ -6,9 +6,9 @@ public class Piano extends Instrument implements IPlayable {
 
     private int keys;
 
-    public Piano(int keys, String material, String colour, String type){
+    public Piano(int keys, String material, String colour, String type, int buyingPrice, int sellingPrice){
 
-        super(material, colour, type);
+        super(material, colour, type, buyingPrice, sellingPrice);
         this.keys = keys;
 
     }

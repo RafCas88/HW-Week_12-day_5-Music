@@ -11,7 +11,7 @@ Trumpet trumpet;
 @Before
     public void before(){
 
-    trumpet = new Trumpet(3, "brass", "yellow", "normal");
+    trumpet = new Trumpet(3, "brass", "yellow", "normal", 5, 10);
 
 }
 

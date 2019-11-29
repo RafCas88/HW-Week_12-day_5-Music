@@ -7,8 +7,8 @@ public class Guitar extends Instrument implements IPlayable {
 
     private int strings;
 
-    public Guitar(int strings, String material, String colour, String type){
-        super(material, colour, type);
+    public Guitar(int strings, String material, String colour, String type, int buyingPrice, int sellingPrice){
+        super(material, colour, type, buyingPrice, sellingPrice);
         this.strings = strings;
 
     }

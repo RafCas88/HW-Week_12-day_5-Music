@@ -6,9 +6,9 @@ public class Trumpet extends Instrument implements IPlayable {
 
     private int valves;
 
-    public Trumpet(int valves, String material, String colour, String type){
+    public Trumpet(int valves, String material, String colour, String type, int buyingPrice, int sellingPrice){
 
-        super(material, colour, type);
+        super(material, colour, type, buyingPrice, sellingPrice);
 
         this.valves = valves;
 
