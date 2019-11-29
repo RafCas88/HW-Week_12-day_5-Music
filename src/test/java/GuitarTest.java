@@ -23,4 +23,19 @@ public class GuitarTest {
         assertEquals("I wanna rock 'n' rol all night....and party everyday", guitar.play());
     }
 
+    @Test
+    public void madeOfMaterial(){
+        assertEquals("Wood", guitar.getMaterial());
+    }
+
+    @Test
+    public void hasColour(){
+        assertEquals("Red", guitar.getColour());
+    }
+
+    @Test
+    public void hasType(){
+        assertEquals("electric", guitar.getType());
+    }
+
 }

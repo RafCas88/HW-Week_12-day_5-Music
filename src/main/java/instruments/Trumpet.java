@@ -8,7 +8,7 @@ public class Trumpet extends Instrument implements IPlayable, ISellable {
 
     public Trumpet(int valves, String material, String colour, String type){
 
-        super(type, material, colour);
+        super(material, colour, type);
 
         this.valves = valves;
 

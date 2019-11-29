@@ -23,4 +23,19 @@ public class PianoTest {
     public void canPlay(){
         assertEquals("Softly, in the dusk, a woman is singing to me;", piano.play());
     }
+
+    @Test
+    public void madeOfMaterial(){
+        assertEquals("wood", piano.getMaterial());
+    }
+
+    @Test
+    public void hasColour(){
+        assertEquals("black", piano.getColour());
+    }
+
+    @Test
+    public void hasType(){
+        assertEquals("electric", piano.getType());
+    }
 }
