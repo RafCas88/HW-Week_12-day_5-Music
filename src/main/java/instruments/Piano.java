@@ -2,7 +2,7 @@ package instruments;
 
 import isellables.ISellable;
 
-public class Piano extends Instrument implements IPlayable, ISellable {
+public class Piano extends Instrument implements IPlayable {
 
     private int keys;
 

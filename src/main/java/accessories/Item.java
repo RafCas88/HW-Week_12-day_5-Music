@@ -1,30 +1,18 @@
-package instruments;
+package accessories;
+
 import isellables.ISellable;
 
-public abstract class Instrument implements ISellable {
+public class Item implements ISellable {
 
-    private String material;
-    private String colour;
     private String type;
     private int buyingPrice;
     private int sellingPrice;
 
+    public Item(String type, int buyingPrice, int sellingPrice){
 
-    public Instrument(String material, String colour, String type, int buyingPrice, int sellingPrice){
-
-        this.material = material;
-        this.colour = colour;
         this.type = type;
         this.buyingPrice = buyingPrice;
         this.sellingPrice = sellingPrice;
-    }
-
-    public String getMaterial() {
-        return material;
-    }
-
-    public String getColour() {
-        return colour;
     }
 
     public String getType() {
@@ -39,7 +27,8 @@ public abstract class Instrument implements ISellable {
         return sellingPrice;
     }
 
-    public int markUp(){
+    public int markUp() {
         return sellingPrice -= buyingPrice;
     }
+
 }

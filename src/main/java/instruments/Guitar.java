@@ -3,7 +3,7 @@ package instruments;
 
 import isellables.ISellable;
 
-public class Guitar extends Instrument implements IPlayable, ISellable {
+public class Guitar extends Instrument implements IPlayable {
 
     private int strings;
 
