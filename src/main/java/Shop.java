@@ -1,25 +1,26 @@
-import isellables.ISellable;
+import accessories.Item;
 
 import java.util.ArrayList;
 
 public class Shop {
 
-    private ArrayList<ISellable> stock;
+    private ArrayList<Item> stock;
+
 
     public Shop(){
-        stock = new ArrayList<ISellable>();
+        stock = new ArrayList<Item>();
+
     }
 
     public int stockStartsEmpty(){
         return stock.size();
     }
 
-    public void addItem(ISellable isellable){
-       this.stock.add(isellable);
+    public void addItem(Item item){
+      this.stock.add(item);
     }
 
-    public void removeItem(ISellable iSellable){
-        this.stock.remove(iSellable);
+    public void removeItem(Item item){
+        this.stock.remove(item);
     }
-
 }

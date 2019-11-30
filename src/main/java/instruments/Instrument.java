@@ -1,7 +1,7 @@
 package instruments;
 import isellables.ISellable;
 
-public abstract class Instrument implements ISellable {
+public abstract class Instrument implements ISellable, IPlayable {
 
     private String material;
     private String colour;
